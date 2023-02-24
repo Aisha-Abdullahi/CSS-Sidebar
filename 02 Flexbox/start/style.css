@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background: lightgray;
+}
+
+.header {
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 200px;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    margin: 0px;
+    justify-content: center;
+}
+
+.header li {
+    list-style: none;
+    margin: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    list-style: none;
+    color: #2b2b2b;
+}
+
+.header a:hover {
+    color: #2b2bb2;
+    transition: all 0.3s;
+}
+
+#profile {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
